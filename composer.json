@@ -1,0 +1,20 @@
+{
+    "name": "jakjr/pagination",
+    "description": "Prove a funcionalidade de persistir o número de uma paginação na sessão do usuário",
+    "authors": [
+      {
+        "name": "João Alfredo Knopik Junior",
+        "email": "joao.alfredo@gmail.com"
+      }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jakjr\\Pagination\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">=5.5.9",
+      "illuminate/support": "^5.1"
+    }
+}
